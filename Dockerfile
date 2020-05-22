@@ -33,5 +33,6 @@ COPY srcs/wordpress-5.4.1.tar.gz ./
 
 # start
 CMD bash start.sh
+#CMd sleep inf
 
 EXPOSE 80 443
